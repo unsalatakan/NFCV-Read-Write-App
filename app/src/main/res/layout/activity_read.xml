@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadActivity">
+
+    <TextView
+        android:id="@+id/tag_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25px"
+        android:text="Kart ID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tag_id" />
+
+
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kasa No:"
+        app:layout_constraintBottom_toBottomOf="@+id/textInputLayout"
+        app:layout_constraintEnd_toStartOf="@+id/textInputLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/textInputLayout" />
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stok No:"
+        app:layout_constraintBottom_toBottomOf="@+id/textInputLayout2"
+        app:layout_constraintEnd_toStartOf="@+id/textInputLayout2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/textInputLayout2" />
+
+    <TextView
+        android:id="@+id/TextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İrsaliye No:"
+        app:layout_constraintBottom_toBottomOf="@+id/textInputLayout3"
+        app:layout_constraintEnd_toStartOf="@+id/textInputLayout3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/textInputLayout3" />
+
+    <TextView
+        android:id="@+id/TextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adet:"
+        app:layout_constraintBottom_toBottomOf="@+id/textInputLayout4"
+        app:layout_constraintEnd_toStartOf="@+id/textInputLayout4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/textInputLayout4" />
+
+    <TextView
+        android:id="@+id/TextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yan Sanayi No:"
+        app:layout_constraintBottom_toBottomOf="@+id/textInputLayout5"
+        app:layout_constraintEnd_toStartOf="@+id/textInputLayout5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/textInputLayout5" />
+
+    <TextView
+        android:id="@+id/TextView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarih:"
+        app:layout_constraintBottom_toBottomOf="@+id/textInputLayout6day"
+        app:layout_constraintEnd_toStartOf="@+id/textInputLayout6day"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/textInputLayout6day" />
+
+    <TextView
+        android:id="@+id/TextView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Operatör No:"
+        app:layout_constraintBottom_toBottomOf="@+id/textInputLayout7"
+        app:layout_constraintEnd_toStartOf="@+id/textInputLayout7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/textInputLayout7" />
+
+    <EditText
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="20dp"
+        android:maxLength="9"
+        android:singleLine="true"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tag_id" />
+
+    <EditText
+        android:id="@+id/textInputLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="20dp"
+        android:maxLength="10"
+        android:singleLine="true"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+    <EditText
+        android:id="@+id/textInputLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="20dp"
+        android:maxLength="6"
+        android:singleLine="true"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
+
+    <EditText
+        android:id="@+id/textInputLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="20dp"
+        android:maxLength="6"
+        android:singleLine="true"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout3" />
+
+    <EditText
+        android:id="@+id/textInputLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="20dp"
+        android:maxLength="6"
+        android:singleLine="true"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout4" />
+
+    <EditText
+        android:id="@+id/textInputLayout6day"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:gravity="center_horizontal"
+        android:maxLength="2"
+        android:singleLine="true"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout5"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout5" />
+
+    <TextView
+        android:id="@+id/slash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textInputLayout7"
+        app:layout_constraintStart_toEndOf="@+id/textInputLayout6day"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout5" />
+
+    <EditText
+        android:id="@+id/textInputLayout6month"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:gravity="center_horizontal"
+        android:maxLength="2"
+        android:singleLine="true"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/slash"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout5" />
+
+    <TextView
+        android:id="@+id/slash20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-1dp"
+        android:text="/ 20"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textInputLayout7"
+        app:layout_constraintStart_toEndOf="@+id/textInputLayout6month"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout5" />
+
+    <EditText
+        android:id="@+id/textInputLayout6year"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:gravity="center_horizontal"
+        android:maxLength="2"
+        android:singleLine="true"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/textInputLayout5"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout5" />
+
+    <EditText
+        android:id="@+id/textInputLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="20dp"
+        android:maxLength="6"
+        android:singleLine="true"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout6day" />
+
+    <Button
+        android:id="@+id/button_read"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="OKUT"
+        android:textColor="@color/white"
+        android:background="@drawable/buttonread"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_write"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="30px"/>
+
+    <Button
+        android:id="@+id/button_write"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="YAZDIR"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_read"
+        android:layout_marginBottom="30px"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
